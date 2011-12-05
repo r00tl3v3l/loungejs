@@ -12,7 +12,7 @@ alert('Event called');
 }
 </script>
 
-* loungejs CHANGE HTML JQUERY TAG EXAMPLE *
+* loungejs change HTML jquery example *
 <br />
 <jquery id="j2" $="('p').html('cool')" on='click' />  
 <input type="button" name="btn1" value="change html" />
