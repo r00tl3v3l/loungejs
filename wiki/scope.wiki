@@ -1,0 +1,14 @@
+#scope tag example usage.
+
+= Scopes an unscoped variable to where you want it to be scoped to. =
+
+<script>
+function localVarFunction(){ 
+var someVar = 69; 
+}
+</script>
+
+<scope dim="someVar" sender="localVarFunction" receiver="scopeTestFunction" />
+
+<function mk="scopeTestFunction(){
+alert('scoped variable: '+ someVar); }" run="0" wait="scope" />
