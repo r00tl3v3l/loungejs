@@ -1,0 +1,23 @@
+== call jquery using jterpreter tag ==
+
+<input type="button" name="btn1" value="change html of P tag" />
+<input type="button" name="btn2" value="animate a div" />
+
+<p>
+A Test P Tag
+</p>
+
+
+<div id="anime">
+animate me!
+</div>
+
+*( this will run immediately as there is no 'on' event specified )* <br>
+<jquery id="j1" $="(document.body).css( 'background', 'gray')" /> <br />
+
+* ( binds btn1 click event to jquery tag of the same id as btn1 ) *<br>
+<jquery id="j2" $="('p').html('cool')" on='click' />
+<event target="btn1" bind="j2" type="click" call="jquery" />
+
+<jquery id="j3" $="('div').animate({height:300},'slow')" on="click" /> <br />
+<event target="btn2" bind="j3" type="click" call="jquery" /> <br />
