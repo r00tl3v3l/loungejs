@@ -1,0 +1,29 @@
+#mdim tag use example.
+
+= Creates multi-dimensional array and passes to callback. =
+
+<br />
+
+* THIS WIKI IS MESSING UP THE BRACKETS ON THE ARRAYS AND REPLACED THEM WITH ? MARKS, SO I USED mDimResult(index) JUST REPLACE () WITH BRACKETS *
+
+<script>
+var mDimResult, index = -1; <br><br>
+function mDimReceiever(result){
+  mDimResult = result;
+} 
+
+var makeDim = new Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'); 
+
+
+function mdimCaller(){
+   index++; <br>
+   document.getElementById('mDimContainer').innerHTML = mDimResult [index]; 
+};
+
+</script>
+
+<input type="button" name="btn4" value="call mdim tag" onclick="mdimCaller()" />
+
+
+<!-- JTERPRETER MDIM TAG EXAMPLE -->
+<mdim array='makeDim' size='5' receiver='mDimReceiever' />
