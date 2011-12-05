@@ -1,4 +1,4 @@
-= Performs basic conditional logic with callback for yes or no =
+= basic conditional logic with callback for yes or no =
 
 
 function A(result){ <br>
