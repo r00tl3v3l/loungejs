@@ -1,0 +1,8 @@
+#loop tag use.
+
+= Basic loop but lets you specify a callback =
+
+<script>var anObject = {a:"ball", b:"chair"}; 
+</script> 
+
+<loop start="0" end="3" target="anObject" callback="alert"></loop> 
