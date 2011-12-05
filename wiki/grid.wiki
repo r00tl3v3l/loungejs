@@ -1,0 +1,14 @@
+#grid usage.
+
+= Simple Datagrid with event listener support =
+<script>
+var someArray = new Array('apple','orange','banana');
+
+function myFunc(){
+alert('called from grid');
+}
+</script>
+
+<grid id="grid1" data="someArray" bgcolor="#000000" color="ffffff" layout="column" listen="onclick" callback="myFunc" renderer='mygrid1' />
+
+<div id='mygrid1'> </div>
