@@ -1,6 +1,6 @@
 #lounge FUNCTION use.
 
-= Toggles an objects properties using events =
+= Toggles an objects state using events =
 
 <select id="x" style="width:200px;">
    <option>one</option>
