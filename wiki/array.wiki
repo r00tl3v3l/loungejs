@@ -1,0 +1,6 @@
+= Create user defined data structures using array tag =
+
+<script>var someArray = new Array('apple','orange','banana'); 
+</script><array id="anArray" data="$someArray"></array><anarray index="1"></anarray>
+<!-- declaring and initilizing our own array --> 
+<array id="myArray" data="TV,BALL,PHONE"></array><myarray index="1"></myarray>
