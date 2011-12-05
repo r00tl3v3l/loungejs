@@ -1,4 +1,4 @@
-= Define a function using this tag =
+= Defines a function =
 <script>
 * function waitForMe(){
 alert('done!');
