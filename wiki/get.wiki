@@ -1,6 +1,6 @@
 #get usage.
 
-= Retrieves an object and passes it to a callback function =
+= Retrieves an object to a callback function =
 
 <get src="someElement" dest="getFunction" />
 
