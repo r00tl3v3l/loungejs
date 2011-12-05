@@ -1,6 +1,7 @@
 #mdim tag use example.
 
-= Creates multi-dimensional array and passes to callback. =
+= Creates multi-dimensional array and passes to callback. If a size
+is specified it will paginate the array =
 
 <br />
 
