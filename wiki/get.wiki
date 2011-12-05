@@ -1,0 +1,20 @@
+#get usage.
+
+= Retrieves an object and passes it to a callback function =
+
+<get src="someElement" dest="getFunction" />
+
+<input type="text" id="someElement" value="SOME TEXT" />
+
+<script>
+  function getFunction(o){
+    alert(o);
+	}
+</script>
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
