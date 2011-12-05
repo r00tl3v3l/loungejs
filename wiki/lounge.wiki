@@ -7,6 +7,6 @@
    <option>two</option>
  </select>
 
-<input type="button" value="Disable" onclick="jtoggler('x', 'disabled'),jtoggler('chBox', 'checked');"/> 
-<input type="checkbox" id="chBox" onclick="jtoggler('chBox', '!checked');" /> some checkbox
-<input type="button" value="Enable" onclick="jtoggler('x', '!disabled');"/>
+<input type="button" value="Disable" onclick="lounge('x', 'disabled'),lounge('chBox', 'checked');"/> 
+<input type="checkbox" id="chBox" onclick="lounge('chBox', '!checked');" /> some checkbox
+<input type="button" value="Enable" onclick="lounge('x', '!disabled');"/>
