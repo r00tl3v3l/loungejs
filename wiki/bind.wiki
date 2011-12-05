@@ -1,0 +1,21 @@
+#sync tag usage. 
+<br>
+
+* Binds an event to an Element. *
+<br>
+A Div Using Bind Tag Example, Please Click Me! 
+
+<br>
+* EXAMPLE USING A FUNCTION DEFINED IN THE TAG. *
+<br>
+<bind src="bindTest,click,function cool(){ 
+alert('binding a function to a div!'); };" /> 
+
+<br>
+
+* EXAMPLE USING A FUNCTION DEFINED OUTSIDE THE TAG. *
+
+<script>function test(){ alert('syncFunctionTest called'); } 
+</script>
+
+<bind src="bindTest,click,test"></bind>
