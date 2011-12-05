@@ -1,0 +1,30 @@
+#async usage.
+
+= Ajax support with an condition flag =
+
+<async url="http://www.example.com/index.jsp" method="get" callback="asyncCallBack"></async>
+
+* Next example below using <if /> tag with async 'ontrue' if ontrue is specified the async tag only runs when the <if /> tag resolves. *
+
+
+<script>
+
+var myNum = 3;
+
+function asyncCallBack(value){ 
+alert('async request complete! '+value); 
+} 
+<br>
+function init(){
+alert('case is true! '+arguments[0]);
+}
+<br>
+function doit(){
+alert('case is false! '+arguments[0]);
+}
+<br>
+</script>
+
+<if test="myNum" condition="3" yes="init" no="doSomethingElse"></if>
+<br />
+<async url="http://www.somesite.com/home.jsp" method="get" callback="asyncCallBack" ontrue="myNum"></async>
