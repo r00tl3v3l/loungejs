@@ -1,4 +1,4 @@
-== call jquery using jterpreter tag ==
+== call jquery using loungejs tag ==
 
 <input type="button" name="btn1" value="change html of P tag" />
 <input type="button" name="btn2" value="animate a div" />
