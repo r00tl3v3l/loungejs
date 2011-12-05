@@ -1,4 +1,4 @@
-= Create user defined data structures using array tag =
+= Create basic data structure using array tag =
 
 <script>var someArray = new Array('apple','orange','banana'); 
 </script><array id="anArray" data="$someArray"></array><anarray index="1"></anarray>
