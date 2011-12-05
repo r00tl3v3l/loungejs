@@ -1,0 +1,19 @@
+#event tag use examples.
+
+= Binds event to some object. =
+
+
+<a href="http://www.somesite.com" id="myAnchor1" Event Test Link ... 
+<event type="click" target="myAnchor1" call="myFunction" />
+
+<script>
+function myFunction(){
+alert('Event called');
+}
+</script>
+
+* loungejs CHANGE HTML JQUERY TAG EXAMPLE *
+<br />
+<jquery id="j2" $="('p').html('cool')" on='click' />  
+<input type="button" name="btn1" value="change html" />
+<event target="btn1" bind="j2" type="click" call="jquery" />
