@@ -1,0 +1,14 @@
+= Define a function using this tag =
+<script>
+* function waitForMe(){
+alert('done!');
+} *
+
+</script>
+
+<function run="1" mk="myFunc(){  alert('function executed!'); }"></function>
+<br />
+<!-- if wait attribute is used then the function gets exceuted after whatever is specified for that attribute --> 
+<br />
+<!-- if wait='0' the function runs as soon as the page has loaded -->
+<function mk="waitFunc(){ alert('executed after go function is called! '); }" wait="waitForMe"></function>
