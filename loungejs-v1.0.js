@@ -1,5 +1,5 @@
 /*
- * loungejs JavaScript Library v2.0
+ * loungejs JavaScript Library v1.0
  * http://loungejs.org/
  *
  * Copyright (c) 2011, Jonathan Page
