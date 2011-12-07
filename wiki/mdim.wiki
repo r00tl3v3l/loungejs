@@ -5,7 +5,7 @@ is specified it will paginate the array *
 
 <br />
 
-* THIS WIKI IS MESSING UP THE BRACKETS ON THE ARRAYS AND REPLACED THEM WITH ? MARKS, SO I USED mDimResult(index) JUST REPLACE () WITH BRACKETS *
+* THIS WIKI IS MESSING UP THE BRACKETS ON THE ARRAYS *
 
 <script>
 var mDimResult, index = -1; <br><br>
