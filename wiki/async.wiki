@@ -1,6 +1,6 @@
 #async usage.
 
-= Ajax support with an condition flag =
+= Ajax support with an optional condition flag =
 
 <async url="http://www.example.com/index.jsp" method="get" callback="asyncCallBack"></async>
 
