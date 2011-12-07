@@ -9,7 +9,7 @@
 
 <br />
 
-CHANGE CSS CLASS USING MODIFY TAG.
+*change CSS example. *
 
 <style type="text/css"> 
 .myCss {     
