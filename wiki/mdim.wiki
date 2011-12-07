@@ -19,7 +19,7 @@ var makeDim = new Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n',
 function mdimCaller(){
    index++; <br>
    document.getElementById('mDimContainer').innerHTML = mDimResult [index]; 
-};
+}
 
 </script>
 
