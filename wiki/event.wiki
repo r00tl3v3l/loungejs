@@ -1,6 +1,6 @@
 #event tag use examples.
 
-= Binds event to some object. =
+= Links an event to some object. =
 
 
 <a href="http://www.somesite.com" id="myAnchor1" Event Test Link ... 
