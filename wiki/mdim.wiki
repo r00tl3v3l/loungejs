@@ -3,9 +3,9 @@
 * Creates multi-dimensional array and passes to callback. If a size
 is specified it will paginate the array *
 
-<br />
+<br>
 
-* THIS WIKI IS MESSING UP THE BRACKETS ON THE ARRAYS *
+* THIS WIKI IS MESSING UP THE BRACKETS ON THE ARRAYS. *
 
 <script>
 var mDimResult, index = -1; <br><br>
