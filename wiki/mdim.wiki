@@ -26,5 +26,5 @@ function mdimCaller(){
 <input type="button" name="btn4" value="call mdim tag" onclick="mdimCaller()" />
 
 
-<!-- JTERPRETER MDIM TAG EXAMPLE -->
+<!--  MDIM TAG EXAMPLE -->
 <mdim array='makeDim' size='5' receiver='mDimReceiever' />
