@@ -1,6 +1,6 @@
 #scope tag example usage.
 
-= Scopes an variable to some other scope. =
+= Scopes a variable to another scope. =
 
 <script>
 function localVarFunction(){ 
