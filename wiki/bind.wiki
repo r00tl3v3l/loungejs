@@ -6,14 +6,14 @@
 A Div Using Bind Tag Example, Please Click Me! 
 
 <br>
-* EXAMPLE USING A FUNCTION DEFINED IN THE TAG. *
+* Example with a function defined inside the tag *
 <br>
 <bind src="bindTest,click,function cool(){ 
 alert('binding a function to a div!'); };" /> 
 
 <br>
 
-* EXAMPLE USING A FUNCTION DEFINED OUTSIDE THE TAG. *
+* Example with a function defined outside bind tag within a script tag *
 
 <script>function test(){ alert('syncFunctionTest called'); } 
 </script>
