@@ -1,7 +1,7 @@
 #modify tag usage.
 
 
-== Modifies an DOM object == 
+== Modifies a DOM object == 
 <div id="modifyTest">SOMETHING TO MODIFY</div>
 
 <modify object="modifyTest" get="innerHTML" set="I AM MODIFED!" /> 
