@@ -1,1 +1,1 @@
-//DEPRECATED see jslounge-mod
+//DEPRECATED see jslounge-mod in download area
