@@ -9,7 +9,7 @@
 
 <br />
 
-*change CSS example. *
+*change CSS example.*
 
 <style type="text/css"> 
 .myCss {     
@@ -32,7 +32,7 @@ change class using modify tag.
 
 <modify object="someDiv" get="class" set="newStyle" />
 <br>
-* Using modify to change css class with an event *
+* Using modify to change css *
 <input type="button" name="btnModify" value="Modify!" onclick="modify(this, 'click')" />
 <modify object="someDiv" get="class" set="newStyle" on="btnModify.click" />
 
