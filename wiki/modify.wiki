@@ -35,3 +35,10 @@ change class using modify tag.
 * Using modify to change css class with an event *
 <input type="button" name="btnModify" value="Modify!" onclick="modify(this, 'click')" />
 <modify object="someDiv" get="class" set="newStyle" on="btnModify.click" />
+
+
+<modify object="div" get="color" set="red" />  
+<!-- <modify object="div" get="visibility" set="hidden" /> -->
+ <!-- <modify object="modifyTest" get="innerHTML" set="hey whats up" /> --> 
+<modify object="div" get="className" set="basic" on="btnModify.click" /> 
+<modify object="div" get="marginLeft" set="100px" />
