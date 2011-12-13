@@ -11,9 +11,3 @@ function myFunction(){
 alert('Event called');
 }
 </script>
-
-* loungejs change HTML jquery example *
-<br />
-<jquery id="j2" $="('p').html('cool')" on='click' />  
-<input type="button" name="btn1" value="change html" />
-<event target="btn1" bind="j2" type="click" call="jquery" />
