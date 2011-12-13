@@ -38,7 +38,6 @@ change class using modify tag.
 
 
 <modify object="div" get="color" set="red" />  
-<!-- <modify object="div" get="visibility" set="hidden" /> -->
- <!-- <modify object="modifyTest" get="innerHTML" set="hey whats up" /> --> 
+<modify object="div" get="visibility" set="hidden" /> 
 <modify object="div" get="className" set="basic" on="btnModify.click" /> 
 <modify object="div" get="marginLeft" set="100px" />
