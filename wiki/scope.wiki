@@ -11,4 +11,4 @@ var someVar = 69;
 <scope dim="someVar" sender="localVarFunction" receiver="scopeTestFunction" />
 
 <function mk="scopeTestFunction(){
-alert('scoped variable: '+ someVar); }" run="0" wait="scope" />
+alert('scoped variable: '+ someVar); }" wait="scope" />
