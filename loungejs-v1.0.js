@@ -1,1 +1,1 @@
-//DEPRECATED see jslounge-mod in download area
+//DEPRECATED see loungejs-mod in download area
