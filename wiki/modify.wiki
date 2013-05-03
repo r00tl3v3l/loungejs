@@ -34,7 +34,7 @@ change class using modify tag.
 <br>
 * Using modify to change css *
 <input type="button" name="btnModify" value="Modify!" onclick="modify(this, 'click')" />
-<modify object="someDiv" get="class" set="newStyle" on="btnModify.click" />
+<lounge:modify object="someDiv" get="class" set="newStyle" on="btnModify.click" />
 
 
 <lounge:modify object="div" get="color" set="red" />  
