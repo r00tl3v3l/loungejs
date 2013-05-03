@@ -15,4 +15,4 @@ padding:3px;
 animate me!
 </div>
 
-<animate object="anime" move="height" amt="300" speed="3" on="btnModify.click" /> 
+<lounge:animate object="anime" move="height" amt="300" speed="3" on="btnModify.click" /> 
