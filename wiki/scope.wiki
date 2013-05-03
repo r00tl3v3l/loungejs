@@ -10,5 +10,5 @@ function localVarFunction(){
 
 <scope dim="someVar" sender="localVarFunction" receiver="scopeTestFunction" />
 
-<function mk="scopeTestFunction(){
+<lounge:function mk="scopeTestFunction(){
 alert('scoped variable: '+ someVar); }" wait="scope" />
