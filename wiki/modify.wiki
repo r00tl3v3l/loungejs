@@ -4,8 +4,8 @@
 == Modifies a DOM object == 
 <div id="modifyTest">SOMETHING TO MODIFY</div>
 
-<modify object="modifyTest" get="innerHTML" set="I AM MODIFED!" /> 
-<modify object="modifyTest" get="style" set="background-color:#0066CC;border:dotted;" />
+<lounge:modify object="modifyTest" get="innerHTML" set="I AM MODIFED!" /> 
+<lounge:modify object="modifyTest" get="style" set="background-color:#0066CC;border:dotted;" />
 
 <br />
 
@@ -30,14 +30,14 @@ padding:30;
 change class using modify tag.
 </div>
 
-<modify object="someDiv" get="class" set="newStyle" />
+<lounge:modify object="someDiv" get="class" set="newStyle" />
 <br>
 * Using modify to change css *
 <input type="button" name="btnModify" value="Modify!" onclick="modify(this, 'click')" />
 <modify object="someDiv" get="class" set="newStyle" on="btnModify.click" />
 
 
-<modify object="div" get="color" set="red" />  
-<modify object="div" get="visibility" set="hidden" /> 
-<modify object="div" get="className" set="basic" on="btnModify.click" /> 
-<modify object="div" get="marginLeft" set="100px" />
+<lounge:modify object="div" get="color" set="red" />  
+<lounge:modify object="div" get="visibility" set="hidden" /> 
+<lounge:modify object="div" get="className" set="basic" on="btnModify.click" /> 
+<lounge:modify object="div" get="marginLeft" set="100px" />
